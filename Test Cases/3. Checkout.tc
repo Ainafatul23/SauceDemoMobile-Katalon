@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>5. Side Bar</name>
+   <name>3. Checkout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1ee7b001-bb1f-4bb7-a7e4-72765a48aa29</testCaseGuid>
+   <testCaseGuid>a1dfb060-5f49-44d2-bebe-cda93431af76</testCaseGuid>
 </TestCaseEntity>

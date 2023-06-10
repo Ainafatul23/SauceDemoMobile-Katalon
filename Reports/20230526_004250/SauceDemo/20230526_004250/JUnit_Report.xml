@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SauceDemo" time="325.8" tests="5" failures="0" errors="0">
+   <testsuite name="SauceDemo" tests="5" failures="0" errors="0" time="325.8" skipped="0" timestamp="2023-05-26 00:43:07" hostname="ASUS - DESKTOP-AVJB2H2" id="Test Suites/SauceDemo">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Automate\\Katalon Studio\\SauceDemoApp\\SauceDemoApp\\Reports\\20230526_004250\\SauceDemo\\20230526_004250"/>
+         <property name="logFiles" value="F:\\Automate\\Katalon Studio\\SauceDemoApp\\SauceDemoApp\\Reports\\20230526_004250\\SauceDemo\\20230526_004250\\appium.log, F:\\Automate\\Katalon Studio\\SauceDemoApp\\SauceDemoApp\\Reports\\20230526_004250\\SauceDemo\\20230526_004250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - DESKTOP-AVJB2H2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/1. Login" time="83.716" classname="Test Cases/1. Login" status="PASSED">
+         <system-out><![CDATA[2023-05-26 00:43:08 - [TEST_CASE][PASSED] - Test Cases/1. Login: Test Cases/1. Login
+
+2023-05-26 00:43:08 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:43:10 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-26 00:43:15 - [MESSAGE][INFO] - Appium server started on port 64,617
+
+2023-05-26 00:43:47 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:43:47 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:49 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:49 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:50 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:51 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:43:51 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:43:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:43:52 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/UsernameRequired-Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/UsernameRequired-Validation' is: 'Username is required'
+
+2023-05-26 00:43:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/UsernameRequired-Validation' is: 'Username is required'
+
+2023-05-26 00:43:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:54 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:43:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:55 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:43:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:43:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:56 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:43:56 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:43:57 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/PasswordRequired-Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/PasswordRequired-Validation' is: 'Password is required'
+
+2023-05-26 00:43:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/PasswordRequired-Validation' is: 'Password is required'
+
+2023-05-26 00:43:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:43:58 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:43:58 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "standart_user", 0): Text 'standart_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:01 - [MESSAGE][PASSED] - Text 'standart_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:01 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:01 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:03 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:03 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:04 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation' is: 'Username and password do not match any user in this service.'
+
+2023-05-26 00:44:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:05 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation' is: 'Username and password do not match any user in this service.'
+
+2023-05-26 00:44:05 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:05 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:06 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:07 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:07 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "sauce_secret", 0): Text 'sauce_secret' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:08 - [MESSAGE][PASSED] - Text 'sauce_secret' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:08 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:09 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation' is: 'Username and password do not match any user in this service.'
+
+2023-05-26 00:44:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation' is: 'Username and password do not match any user in this service.'
+
+2023-05-26 00:44:09 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:10 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "locked_out_user", 0): Text 'locked_out_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:12 - [MESSAGE][PASSED] - Text 'locked_out_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:12 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:12 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:12 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:14 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:14 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:15 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/LockedOutUser-Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/LockedOutUser-Validation' is: 'Sorry, this user has been locked out.'
+
+2023-05-26 00:44:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:15 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/LockedOutUser-Validation' is: 'Sorry, this user has been locked out.'
+
+2023-05-26 00:44:15 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:16 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:16 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "problem_user", 0): Text 'problem_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:18 - [MESSAGE][PASSED] - Text 'problem_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:18 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:18 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:18 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:19 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:19 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:20 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/Products-Assertion"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/Products-Assertion' is: 'PRODUCTS'
+
+2023-05-26 00:44:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/Products-Assertion' is: 'PRODUCTS'
+
+2023-05-26 00:44:21 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/SideBar-Dashboard"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/SideBar-Dashboard'
+
+2023-05-26 00:44:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/SideBar-Dashboard'
+
+2023-05-26 00:44:22 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Logout-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Logout-Button'
+
+2023-05-26 00:44:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Logout-Button'
+
+2023-05-26 00:44:24 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:25 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field' text is cleared
+
+2023-05-26 00:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginUsername-Field"), "standard_user", 0): Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:27 - [MESSAGE][PASSED] - Text 'standard_user' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginUsername-Field'
+
+2023-05-26 00:44:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), 0): Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:28 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field' text is cleared
+
+2023-05-26 00:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Login/LoginPassword-Field"), "secret_sauce", 0): Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:29 - [MESSAGE][PASSED] - Text 'secret_sauce' has been set to element 'Object Repository/Application/SauceDemo/Login/LoginPassword-Field'
+
+2023-05-26 00:44:29 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Login/Login-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Login/Login-Button'
+
+2023-05-26 00:44:30 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Login/Products-Assertion"), 0): Text of element 'Object Repository/Application/SauceDemo/Login/Products-Assertion' is: 'PRODUCTS'
+
+2023-05-26 00:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Login/Products-Assertion' is: 'PRODUCTS']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Dashboard" time="18.375" classname="Test Cases/2. Dashboard" status="PASSED">
+         <system-out><![CDATA[2023-05-26 00:44:31 - [TEST_CASE][PASSED] - Test Cases/2. Dashboard: Test Cases/2. Dashboard
+
+2023-05-26 00:44:32 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:44:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:44:44 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Dashboard/Backpack-Card"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/Backpack-Card'
+
+2023-05-26 00:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/Backpack-Card'
+
+2023-05-26 00:44:46 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Dashboard/Back to Products - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/Back to Products - Button'
+
+2023-05-26 00:44:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/Back to Products - Button'
+
+2023-05-26 00:44:48 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Dashboard/ChangeDisplay"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/ChangeDisplay'
+
+2023-05-26 00:44:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/ChangeDisplay'
+
+2023-05-26 00:44:49 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Dashboard/ChangeDisplay"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/ChangeDisplay'
+
+2023-05-26 00:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:44:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Dashboard/ChangeDisplay']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Filter" time="26.642" classname="Test Cases/3. Filter" status="PASSED">
+         <system-out><![CDATA[2023-05-26 00:44:50 - [TEST_CASE][PASSED] - Test Cases/3. Filter: Test Cases/3. Filter
+
+2023-05-26 00:44:51 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:45:03 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:45:03 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Filter"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:06 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Cancel - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Cancel - Button'
+
+2023-05-26 00:45:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Cancel - Button'
+
+2023-05-26 00:45:07 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Filter"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:08 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Price (high to low) - Sort"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Price (high to low) - Sort'
+
+2023-05-26 00:45:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Price (high to low) - Sort'
+
+2023-05-26 00:45:09 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Filter/49.99 - Assert Price Highest"), 0): Text of element 'Object Repository/Application/SauceDemo/Filter/49.99 - Assert Price Highest' is: '$49.99'
+
+2023-05-26 00:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Filter/49.99 - Assert Price Highest' is: '$49.99'
+
+2023-05-26 00:45:10 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Filter"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:10 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Price (low to high) - Sort"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Price (low to high) - Sort'
+
+2023-05-26 00:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Price (low to high) - Sort'
+
+2023-05-26 00:45:11 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Filter/7.99 - Assert Price Lowest"), 0): Text of element 'Object Repository/Application/SauceDemo/Filter/7.99 - Assert Price Lowest' is: '$7.99'
+
+2023-05-26 00:45:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Filter/7.99 - Assert Price Lowest' is: '$7.99'
+
+2023-05-26 00:45:12 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Filter"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:12 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Name (Z to A) - Sort"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Name (Z to A) - Sort'
+
+2023-05-26 00:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Name (Z to A) - Sort'
+
+2023-05-26 00:45:13 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A"), 0): Text of element 'Object Repository/Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2023-05-26 00:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2023-05-26 00:45:14 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Filter"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Filter'
+
+2023-05-26 00:45:14 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Filter/Name (A to Z) - Sort"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Filter/Name (A to Z) - Sort'
+
+2023-05-26 00:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Filter/Name (A to Z) - Sort'
+
+2023-05-26 00:45:15 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z"), 0): Text of element 'Object Repository/Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z' is: 'Sauce Labs Backpack'
+
+2023-05-26 00:45:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z' is: 'Sauce Labs Backpack']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Checkout" time="110.335" classname="Test Cases/4. Checkout" status="PASSED">
+         <system-out><![CDATA[2023-05-26 00:45:17 - [TEST_CASE][PASSED] - Test Cases/4. Checkout: Test Cases/4. Checkout
+
+2023-05-26 00:45:17 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:45:30 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:45:30 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Sauce Labs Backpack"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Sauce Labs Backpack'
+
+2023-05-26 00:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Sauce Labs Backpack'
+
+2023-05-26 00:45:32 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-05-26 00:45:38 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-05-26 00:45:38 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Add To Cart - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Add To Cart - Button'
+
+2023-05-26 00:45:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Add To Cart - Button'
+
+2023-05-26 00:45:39 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Remove - Assert Add 1"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Remove - Assert Add 1' is: 'REMOVE'
+
+2023-05-26 00:45:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Remove - Assert Add 1' is: 'REMOVE'
+
+2023-05-26 00:45:40 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Add Number Cart - Assert add 2"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Add Number Cart - Assert add 2' is: '1'
+
+2023-05-26 00:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Add Number Cart - Assert add 2' is: '1'
+
+2023-05-26 00:45:40 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Back to Products - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Back to Products - Button'
+
+2023-05-26 00:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Back to Products - Button'
+
+2023-05-26 00:45:41 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Remove - Assert Add Dash 3"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Remove - Assert Add Dash 3' is: 'REMOVE'
+
+2023-05-26 00:45:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Remove - Assert Add Dash 3' is: 'REMOVE'
+
+2023-05-26 00:45:42 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Sauce Labs Bike - Card"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Sauce Labs Bike - Card'
+
+2023-05-26 00:45:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Sauce Labs Bike - Card'
+
+2023-05-26 00:45:42 - [TEST_STEP][PASSED] - scrollToText("Add To Cart"): Scrolling to text 'Add To Cart' successfully
+
+2023-05-26 00:45:48 - [MESSAGE][PASSED] - Scrolling to text 'Add To Cart' successfully
+
+2023-05-26 00:45:48 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Add To Cart - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Add To Cart - Button'
+
+2023-05-26 00:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Add To Cart - Button'
+
+2023-05-26 00:45:49 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Cart - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:45:50 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Your Cart - Assetion Cart"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:45:51 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Remove Backpack - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Remove Backpack - Button'
+
+2023-05-26 00:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:45:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Remove Backpack - Button'
+
+2023-05-26 00:45:52 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("Application/SauceDemo/Checkout/SauceLabsBackpack - Assertion Delete"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/SauceLabsBackpack - Assertion Delete' not found
+
+2023-05-26 00:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:22 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/SauceLabsBackpack - Assertion Delete' not found
+
+2023-05-26 00:46:22 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Continue Shopping - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Shopping - Button'
+
+2023-05-26 00:46:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Shopping - Button'
+
+2023-05-26 00:46:24 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Cart - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:46:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:46:24 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Your Cart - Assetion Cart"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:46:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:46:25 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Checkout - Button'
+
+2023-05-26 00:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Checkout - Button'
+
+2023-05-26 00:46:26 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Checkout Information"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Information' is: 'CHECKOUT: INFORMATION'
+
+2023-05-26 00:46:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Information' is: 'CHECKOUT: INFORMATION'
+
+2023-05-26 00:46:27 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Cancel Checkout Info - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cancel Checkout Info - Button'
+
+2023-05-26 00:46:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cancel Checkout Info - Button'
+
+2023-05-26 00:46:28 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Products - Assertion Continue Shopping"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Products - Assertion Continue Shopping' is: 'PRODUCTS'
+
+2023-05-26 00:46:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Products - Assertion Continue Shopping' is: 'PRODUCTS'
+
+2023-05-26 00:46:29 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Cart - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:46:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Cart - Button'
+
+2023-05-26 00:46:29 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Your Cart - Assetion Cart"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:46:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Your Cart - Assetion Cart' is: 'YOUR CART'
+
+2023-05-26 00:46:30 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Checkout - Button'
+
+2023-05-26 00:46:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Checkout - Button'
+
+2023-05-26 00:46:31 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Checkout Information"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Information' is: 'CHECKOUT: INFORMATION'
+
+2023-05-26 00:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Information' is: 'CHECKOUT: INFORMATION'
+
+2023-05-26 00:46:32 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:32 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:32 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:33 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), "muslikah", 0): Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:35 - [MESSAGE][PASSED] - Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:35 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), "1234", 0): Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:38 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:38 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Continue Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:38 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/First Name is required - Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/First Name is required - Validation' is: 'First Name is required'
+
+2023-05-26 00:46:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/First Name is required - Validation' is: 'First Name is required'
+
+2023-05-26 00:46:39 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:39 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:39 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), "ainafatul", 0): Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:41 - [MESSAGE][PASSED] - Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:41 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:41 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:41 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:42 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), "1234", 0): Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:44 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:44 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Continue Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:44 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Last Name is required - Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Last Name is required - Validation' is: 'Last Name is required'
+
+2023-05-26 00:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:45 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Last Name is required - Validation' is: 'Last Name is required'
+
+2023-05-26 00:46:45 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:45 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:45 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), "ainafatul", 0): Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:47 - [MESSAGE][PASSED] - Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:47 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:47 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:47 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), "muslikah", 0): Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:49 - [MESSAGE][PASSED] - Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:49 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:50 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:50 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Continue Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:50 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Postal Code is required - Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Postal Code is required - Validation' is: 'Postal Code is required'
+
+2023-05-26 00:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Postal Code is required - Validation' is: 'Postal Code is required'
+
+2023-05-26 00:46:51 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:52 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field' text is cleared
+
+2023-05-26 00:46:52 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/First Name - Field"), "ainafatul", 0): Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:53 - [MESSAGE][PASSED] - Text 'ainafatul' has been set to element 'Object Repository/Application/SauceDemo/Checkout/First Name - Field'
+
+2023-05-26 00:46:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:54 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field' text is cleared
+
+2023-05-26 00:46:54 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/Last Name - Field"), "muslikah", 0): Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:55 - [MESSAGE][PASSED] - Text 'muslikah' has been set to element 'Object Repository/Application/SauceDemo/Checkout/Last Name - Field'
+
+2023-05-26 00:46:55 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), 0): Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:56 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field' text is cleared
+
+2023-05-26 00:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Checkout/ZipPostal Code - Field"), "1234", 0): Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:57 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/Application/SauceDemo/Checkout/ZipPostal Code - Field'
+
+2023-05-26 00:46:57 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Continue Checkout - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Continue Checkout - Button'
+
+2023-05-26 00:46:57 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Checkout Overview - Assertion"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Overview - Assertion' is: 'CHECKOUT: OVERVIEW'
+
+2023-05-26 00:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:46:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Checkout Overview - Assertion' is: 'CHECKOUT: OVERVIEW'
+
+2023-05-26 00:46:59 - [TEST_STEP][PASSED] - scrollToText("finish", STOP_ON_FAILURE): Scrolling to text 'finish' successfully
+
+2023-05-26 00:47:04 - [MESSAGE][PASSED] - Scrolling to text 'finish' successfully
+
+2023-05-26 00:47:04 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Finish - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Finish - Button'
+
+2023-05-26 00:47:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Finish - Button'
+
+2023-05-26 00:47:05 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/CHECKOUT COMPLETE"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/CHECKOUT COMPLETE' is: 'CHECKOUT: COMPLETE!'
+
+2023-05-26 00:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/CHECKOUT COMPLETE' is: 'CHECKOUT: COMPLETE!'
+
+2023-05-26 00:47:06 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Checkout/Thankyou - Assertion finish order"), 0): Text of element 'Object Repository/Application/SauceDemo/Checkout/Thankyou - Assertion finish order' is: 'THANK YOU FOR YOU ORDER'
+
+2023-05-26 00:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Checkout/Thankyou - Assertion finish order' is: 'THANK YOU FOR YOU ORDER'
+
+2023-05-26 00:47:06 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Checkout/Back Home - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Back Home - Button'
+
+2023-05-26 00:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Checkout/Back Home - Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5. Side Bar" time="86.088" classname="Test Cases/5. Side Bar" status="PASSED">
+         <system-out><![CDATA[2023-05-26 00:47:07 - [TEST_CASE][PASSED] - Test Cases/5. Side Bar: Test Cases/5. Side Bar
+
+2023-05-26 00:47:08 - [TEST_STEP][PASSED] - startExistingApplication("com.swaglabsmobileapp"): Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:47:22 - [MESSAGE][PASSED] - Starting app with application ID: 'com.swaglabsmobileapp'
+
+2023-05-26 00:47:22 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:25 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/AllItems-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/AllItems-Button'
+
+2023-05-26 00:47:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/AllItems-Button'
+
+2023-05-26 00:47:27 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Products - Assert All Items"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Products - Assert All Items' is: 'PRODUCTS'
+
+2023-05-26 00:47:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Products - Assert All Items' is: 'PRODUCTS'
+
+2023-05-26 00:47:30 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Add to Cart"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Add to Cart'
+
+2023-05-26 00:47:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Add to Cart'
+
+2023-05-26 00:47:30 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Remove - Assert"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Remove - Assert' is: 'REMOVE'
+
+2023-05-26 00:47:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Remove - Assert' is: 'REMOVE'
+
+2023-05-26 00:47:31 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:32 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/ResetApp-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/ResetApp-Button'
+
+2023-05-26 00:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/ResetApp-Button'
+
+2023-05-26 00:47:34 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Add to Cart"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Add to Cart' is: 'ADD TO CART'
+
+2023-05-26 00:47:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Add to Cart' is: 'ADD TO CART'
+
+2023-05-26 00:47:36 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:36 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/WebView-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/WebView-Button'
+
+2023-05-26 00:47:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/WebView-Button'
+
+2023-05-26 00:47:38 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/WEBVIEW SELECTION"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/WEBVIEW SELECTION' is: 'WEBVIEW SELECTION'
+
+2023-05-26 00:47:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/WEBVIEW SELECTION' is: 'WEBVIEW SELECTION'
+
+2023-05-26 00:47:42 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Side Bar/https - field"), 0): Element 'Object Repository/Application/SauceDemo/Side Bar/https - field' text is cleared
+
+2023-05-26 00:47:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:42 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Side Bar/https - field' text is cleared
+
+2023-05-26 00:47:42 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Go to site - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Go to site - Button'
+
+2023-05-26 00:47:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Go to site - Button'
+
+2023-05-26 00:47:43 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Please provide a correct https url - Validation"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Please provide a correct https url - Validation' is: 'Please provide a correct https url'
+
+2023-05-26 00:47:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Please provide a correct https url - Validation' is: 'Please provide a correct https url'
+
+2023-05-26 00:47:44 - [TEST_STEP][PASSED] - clearText(findTestObject("Application/SauceDemo/Side Bar/https - field"), 0): Element 'Object Repository/Application/SauceDemo/Side Bar/https - field' text is cleared
+
+2023-05-26 00:47:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:45 - [MESSAGE][PASSED] - Element 'Object Repository/Application/SauceDemo/Side Bar/https - field' text is cleared
+
+2023-05-26 00:47:45 - [TEST_STEP][PASSED] - setText(findTestObject("Application/SauceDemo/Side Bar/https - field"), "https://www.saucedemo.com/", 0): Text 'https://www.saucedemo.com/' has been set to element 'Object Repository/Application/SauceDemo/Side Bar/https - field'
+
+2023-05-26 00:47:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:46 - [MESSAGE][PASSED] - Text 'https://www.saucedemo.com/' has been set to element 'Object Repository/Application/SauceDemo/Side Bar/https - field'
+
+2023-05-26 00:47:46 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Go to site - Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Go to site - Button'
+
+2023-05-26 00:47:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Go to site - Button'
+
+2023-05-26 00:47:47 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:47 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/QRCode-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/QRCode-Button'
+
+2023-05-26 00:47:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/QRCode-Button'
+
+2023-05-26 00:47:49 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/ScanQR - assert scanQR"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/ScanQR - assert scanQR' is: 'Scan a QR Code that contains a url.'
+
+2023-05-26 00:47:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/ScanQR - assert scanQR' is: 'Scan a QR Code that contains a url.'
+
+2023-05-26 00:47:53 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:54 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/GeoLoc-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/GeoLoc-Button'
+
+2023-05-26 00:47:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/GeoLoc-Button'
+
+2023-05-26 00:47:57 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/GeoLoc - Assert"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/GeoLoc - Assert' is: 'GEO LOCATION'
+
+2023-05-26 00:47:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:47:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/GeoLoc - Assert' is: 'GEO LOCATION'
+
+2023-05-26 00:47:58 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:47:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:48:03 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Drawing-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Drawing-Button'
+
+2023-05-26 00:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Drawing-Button'
+
+2023-05-26 00:48:06 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Drawing - Assert"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Drawing - Assert' is: 'DRAWING'
+
+2023-05-26 00:48:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Drawing - Assert' is: 'DRAWING'
+
+2023-05-26 00:48:10 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:48:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:48:11 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/About-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/About-Button'
+
+2023-05-26 00:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/About-Button'
+
+2023-05-26 00:48:14 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/About- Assert"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/About- Assert' is: 'Welcome to Chrome'
+
+2023-05-26 00:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/About- Assert' is: 'Welcome to Chrome'
+
+2023-05-26 00:48:21 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-26 00:48:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-26 00:48:23 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Sidebar"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Sidebar'
+
+2023-05-26 00:48:27 - [TEST_STEP][PASSED] - tap(findTestObject("Application/SauceDemo/Side Bar/Logout-Button"), 0): Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Logout-Button'
+
+2023-05-26 00:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/SauceDemo/Side Bar/Logout-Button'
+
+2023-05-26 00:48:30 - [TEST_STEP][PASSED] - getText(findTestObject("Application/SauceDemo/Side Bar/Login - Assert Logout"), 0): Text of element 'Object Repository/Application/SauceDemo/Side Bar/Login - Assert Logout' is: 'LOGIN'
+
+2023-05-26 00:48:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-26 00:48:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/SauceDemo/Side Bar/Login - Assert Logout' is: 'LOGIN']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-26 00:43:07 - [TEST_SUITE][PASSED] - SauceDemo: Test Cases/5. Side Bar]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -22,59 +22,94 @@ Mobile.startExistingApplication('com.swaglabsmobileapp')
 
 //Verify user can't  leaving username field empty
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'secret_sauce', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
-Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernameRequired-Validation'), 0)
+
+usernameValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernameRequired-Validation'), 0)
 
 //Verify user can't  leaving password field empty
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'standard_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
-Mobile.getText(findTestObject('Application/SauceDemo/Login/PasswordRequired-Validation'), 0)
+
+passwordValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/PasswordRequired-Validation'), 0)
 
 //Verify user can't input invalid username
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'standart_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'secret_sauce', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
-Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 0)
+
+NotMatchValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 
+    0)
 
 //Verify user can't input invalid password
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'standard_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'sauce_secret', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
+
 Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 0)
 
 // Verify user can't login using locked out user
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'locked_out_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'secret_sauce', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
+
 Mobile.getText(findTestObject('Application/SauceDemo/Login/LockedOutUser-Validation'), 0)
 
 // Verify user can login with problem user
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'problem_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'secret_sauce', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
+
 Mobile.getText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 0)
 
 //Logout
 Mobile.tap(findTestObject('Application/SauceDemo/Login/SideBar-Dashboard'), 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Logout-Button'), 0)
 
 //Verify user can login using standard user
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 'standard_user', 0)
+
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 0)
+
 Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field'), 'secret_sauce', 0)
+
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
+
 Mobile.getText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 0)
 

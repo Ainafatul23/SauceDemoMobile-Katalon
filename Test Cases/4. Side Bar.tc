@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2. Dashboard</name>
+   <name>4. Side Bar</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>79672ce6-f023-404b-a54e-68ef46f956c7</testCaseGuid>
+   <testCaseGuid>1ee7b001-bb1f-4bb7-a7e4-72765a48aa29</testCaseGuid>
 </TestCaseEntity>

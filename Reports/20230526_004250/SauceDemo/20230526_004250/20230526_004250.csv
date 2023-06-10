@@ -1,0 +1,169 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SauceDemo,,,,2023-05-26 00:43:07,2023-05-26 00:48:33,5m - 25.800s,PASSED
+,,,,,,,
+Test Cases/1. Login,,"Negative, positive case",,2023-05-26 00:43:08,2023-05-26 00:44:31,1m - 23.716s,PASSED
+"startExistingApplication(""com.swaglabsmobileapp"")",,,,2023-05-26 00:43:08,2023-05-26 00:43:47,38.143s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:43:47,2023-05-26 00:43:49,2.431s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:43:49,2023-05-26 00:43:50,0.694s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""secret_sauce"", 0)",,,,2023-05-26 00:43:50,2023-05-26 00:43:51,1.740s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:43:51,2023-05-26 00:43:52,0.876s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/UsernameRequired-Validation""), 0)",,,,2023-05-26 00:43:52,2023-05-26 00:43:53,0.964s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:43:53,2023-05-26 00:43:54,0.351s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""standard_user"", 0)",,,,2023-05-26 00:43:54,2023-05-26 00:43:55,1.759s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:43:55,2023-05-26 00:43:56,0.704s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:43:56,2023-05-26 00:43:57,0.851s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/PasswordRequired-Validation""), 0)",,,,2023-05-26 00:43:57,2023-05-26 00:43:58,0.890s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:43:58,2023-05-26 00:43:58,0.298s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""standart_user"", 0)",,,,2023-05-26 00:43:58,2023-05-26 00:44:01,2.381s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:44:01,2023-05-26 00:44:01,0.656s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""secret_sauce"", 0)",,,,2023-05-26 00:44:01,2023-05-26 00:44:03,1.686s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:44:03,2023-05-26 00:44:04,0.783s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation""), 0)",,,,2023-05-26 00:44:04,2023-05-26 00:44:05,1.005s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:44:05,2023-05-26 00:44:05,0.324s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""standard_user"", 0)",,,,2023-05-26 00:44:05,2023-05-26 00:44:06,1.368s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:44:06,2023-05-26 00:44:07,0.626s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""sauce_secret"", 0)",,,,2023-05-26 00:44:07,2023-05-26 00:44:08,1.179s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:44:08,2023-05-26 00:44:09,0.717s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation""), 0)",,,,2023-05-26 00:44:09,2023-05-26 00:44:09,0.549s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:44:09,2023-05-26 00:44:10,0.461s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""locked_out_user"", 0)",,,,2023-05-26 00:44:10,2023-05-26 00:44:12,1.768s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:44:12,2023-05-26 00:44:12,0.602s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""secret_sauce"", 0)",,,,2023-05-26 00:44:12,2023-05-26 00:44:14,1.629s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:44:14,2023-05-26 00:44:15,0.727s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/LockedOutUser-Validation""), 0)",,,,2023-05-26 00:44:15,2023-05-26 00:44:15,0.871s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:44:15,2023-05-26 00:44:16,0.300s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""problem_user"", 0)",,,,2023-05-26 00:44:16,2023-05-26 00:44:18,1.747s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:44:18,2023-05-26 00:44:18,0.599s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""secret_sauce"", 0)",,,,2023-05-26 00:44:18,2023-05-26 00:44:19,1.139s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:44:19,2023-05-26 00:44:20,0.662s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/Products-Assertion""), 0)",,,,2023-05-26 00:44:20,2023-05-26 00:44:21,1.544s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/SideBar-Dashboard""), 0)",,,,2023-05-26 00:44:21,2023-05-26 00:44:22,0.362s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Logout-Button""), 0)",,,,2023-05-26 00:44:22,2023-05-26 00:44:24,1.833s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), 0)",,,,2023-05-26 00:44:24,2023-05-26 00:44:25,1.777s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginUsername-Field""), ""standard_user"", 0)",,,,2023-05-26 00:44:25,2023-05-26 00:44:27,1.640s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), 0)",,,,2023-05-26 00:44:27,2023-05-26 00:44:28,0.594s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Login/LoginPassword-Field""), ""secret_sauce"", 0)",,,,2023-05-26 00:44:28,2023-05-26 00:44:29,1.600s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Login/Login-Button""), 0)",,,,2023-05-26 00:44:29,2023-05-26 00:44:30,0.645s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Login/Products-Assertion""), 0)",,,,2023-05-26 00:44:30,2023-05-26 00:44:31,1.483s,PASSED
+,,,,,,,
+Test Cases/2. Dashboard,,,,2023-05-26 00:44:31,2023-05-26 00:44:50,18.375s,PASSED
+"startExistingApplication(""com.swaglabsmobileapp"")",,,,2023-05-26 00:44:32,2023-05-26 00:44:44,12.246s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Dashboard/Backpack-Card""), 0)",,,,2023-05-26 00:44:44,2023-05-26 00:44:46,2.179s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Dashboard/Back to Products - Button""), 0)",,,,2023-05-26 00:44:46,2023-05-26 00:44:48,1.372s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Dashboard/ChangeDisplay""), 0)",,,,2023-05-26 00:44:48,2023-05-26 00:44:49,1.217s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Dashboard/ChangeDisplay""), 0)",,,,2023-05-26 00:44:49,2023-05-26 00:44:50,0.940s,PASSED
+,,,,,,,
+Test Cases/3. Filter,,,,2023-05-26 00:44:50,2023-05-26 00:45:17,26.642s,PASSED
+"startExistingApplication(""com.swaglabsmobileapp"")",,,,2023-05-26 00:44:51,2023-05-26 00:45:03,12.275s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Filter""), 0)",,,,2023-05-26 00:45:03,2023-05-26 00:45:06,2.452s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Cancel - Button""), 0)",,,,2023-05-26 00:45:06,2023-05-26 00:45:07,1.278s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Filter""), 0)",,,,2023-05-26 00:45:07,2023-05-26 00:45:08,0.934s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Price (high to low) - Sort""), 0)",,,,2023-05-26 00:45:08,2023-05-26 00:45:09,0.867s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Filter/49.99 - Assert Price Highest""), 0)",,,,2023-05-26 00:45:09,2023-05-26 00:45:10,0.910s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Filter""), 0)",,,,2023-05-26 00:45:10,2023-05-26 00:45:10,0.489s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Price (low to high) - Sort""), 0)",,,,2023-05-26 00:45:10,2023-05-26 00:45:11,0.792s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Filter/7.99 - Assert Price Lowest""), 0)",,,,2023-05-26 00:45:11,2023-05-26 00:45:12,0.834s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Filter""), 0)",,,,2023-05-26 00:45:12,2023-05-26 00:45:12,0.375s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Name (Z to A) - Sort""), 0)",,,,2023-05-26 00:45:12,2023-05-26 00:45:13,0.939s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A""), 0)",,,,2023-05-26 00:45:13,2023-05-26 00:45:14,0.857s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Filter""), 0)",,,,2023-05-26 00:45:14,2023-05-26 00:45:14,0.406s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Filter/Name (A to Z) - Sort""), 0)",,,,2023-05-26 00:45:14,2023-05-26 00:45:15,0.939s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z""), 0)",,,,2023-05-26 00:45:15,2023-05-26 00:45:17,1.318s,PASSED
+,,,,,,,
+Test Cases/4. Checkout,,,,2023-05-26 00:45:17,2023-05-26 00:47:07,1m - 50.335s,PASSED
+"startExistingApplication(""com.swaglabsmobileapp"")",,,,2023-05-26 00:45:17,2023-05-26 00:45:30,13.225s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Sauce Labs Backpack""), 0)",,,,2023-05-26 00:45:30,2023-05-26 00:45:32,2.223s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-05-26 00:45:32,2023-05-26 00:45:38,5.931s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Add To Cart - Button""), 0)",,,,2023-05-26 00:45:38,2023-05-26 00:45:39,0.431s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Remove - Assert Add 1""), 0)",,,,2023-05-26 00:45:39,2023-05-26 00:45:40,0.948s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Add Number Cart - Assert add 2""), 0)",,,,2023-05-26 00:45:40,2023-05-26 00:45:40,0.397s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Back to Products - Button""), 0)",,,,2023-05-26 00:45:40,2023-05-26 00:45:41,0.507s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Remove - Assert Add Dash 3""), 0)",,,,2023-05-26 00:45:41,2023-05-26 00:45:42,1.335s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Sauce Labs Bike - Card""), 0)",,,,2023-05-26 00:45:42,2023-05-26 00:45:42,0.412s,PASSED
+"scrollToText(""Add To Cart"")",,,,2023-05-26 00:45:42,2023-05-26 00:45:48,5.925s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Add To Cart - Button""), 0)",,,,2023-05-26 00:45:48,2023-05-26 00:45:49,0.531s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Cart - Button""), 0)",,,,2023-05-26 00:45:49,2023-05-26 00:45:50,1.033s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Your Cart - Assetion Cart""), 0)",,,,2023-05-26 00:45:50,2023-05-26 00:45:51,1.503s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Remove Backpack - Button""), 0)",,,,2023-05-26 00:45:51,2023-05-26 00:45:52,0.504s,PASSED
+"verifyElementNotExist(findTestObject(""Application/SauceDemo/Checkout/SauceLabsBackpack - Assertion Delete""), 0)",,,,2023-05-26 00:45:52,2023-05-26 00:46:22,30.265s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Continue Shopping - Button""), 0)",,,,2023-05-26 00:46:22,2023-05-26 00:46:24,1.406s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Cart - Button""), 0)",,,,2023-05-26 00:46:24,2023-05-26 00:46:24,0.284s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Your Cart - Assetion Cart""), 0)",,,,2023-05-26 00:46:24,2023-05-26 00:46:25,1.413s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Checkout - Button""), 0)",,,,2023-05-26 00:46:25,2023-05-26 00:46:26,0.311s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Checkout Information""), 0)",,,,2023-05-26 00:46:26,2023-05-26 00:46:27,1.761s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Cancel Checkout Info - Button""), 0)",,,,2023-05-26 00:46:27,2023-05-26 00:46:28,0.308s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Products - Assertion Continue Shopping""), 0)",,,,2023-05-26 00:46:28,2023-05-26 00:46:29,1.127s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Cart - Button""), 0)",,,,2023-05-26 00:46:29,2023-05-26 00:46:29,0.267s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Your Cart - Assetion Cart""), 0)",,,,2023-05-26 00:46:29,2023-05-26 00:46:30,1.334s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Checkout - Button""), 0)",,,,2023-05-26 00:46:30,2023-05-26 00:46:31,0.335s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Checkout Information""), 0)",,,,2023-05-26 00:46:31,2023-05-26 00:46:32,1.470s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), 0)",,,,2023-05-26 00:46:32,2023-05-26 00:46:32,0.269s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), 0)",,,,2023-05-26 00:46:32,2023-05-26 00:46:33,0.639s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), ""muslikah"", 0)",,,,2023-05-26 00:46:33,2023-05-26 00:46:35,1.642s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), 0)",,,,2023-05-26 00:46:35,2023-05-26 00:46:35,0.645s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), ""1234"", 0)",,,,2023-05-26 00:46:35,2023-05-26 00:46:38,2.148s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Continue Checkout - Button""), 0)",,,,2023-05-26 00:46:38,2023-05-26 00:46:38,0.693s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/First Name is required - Validation""), 0)",,,,2023-05-26 00:46:38,2023-05-26 00:46:39,0.923s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), 0)",,,,2023-05-26 00:46:39,2023-05-26 00:46:39,0.246s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), ""ainafatul"", 0)",,,,2023-05-26 00:46:39,2023-05-26 00:46:41,1.171s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), 0)",,,,2023-05-26 00:46:41,2023-05-26 00:46:41,0.612s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), 0)",,,,2023-05-26 00:46:41,2023-05-26 00:46:42,0.716s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), ""1234"", 0)",,,,2023-05-26 00:46:42,2023-05-26 00:46:44,1.735s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Continue Checkout - Button""), 0)",,,,2023-05-26 00:46:44,2023-05-26 00:46:44,0.682s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Last Name is required - Validation""), 0)",,,,2023-05-26 00:46:44,2023-05-26 00:46:45,0.868s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), 0)",,,,2023-05-26 00:46:45,2023-05-26 00:46:45,0.292s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), ""ainafatul"", 0)",,,,2023-05-26 00:46:45,2023-05-26 00:46:47,1.290s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), 0)",,,,2023-05-26 00:46:47,2023-05-26 00:46:47,0.652s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), ""muslikah"", 0)",,,,2023-05-26 00:46:47,2023-05-26 00:46:49,1.658s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), 0)",,,,2023-05-26 00:46:49,2023-05-26 00:46:50,0.614s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Continue Checkout - Button""), 0)",,,,2023-05-26 00:46:50,2023-05-26 00:46:50,0.761s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Postal Code is required - Validation""), 0)",,,,2023-05-26 00:46:50,2023-05-26 00:46:51,0.958s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), 0)",,,,2023-05-26 00:46:51,2023-05-26 00:46:52,0.280s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/First Name - Field""), ""ainafatul"", 0)",,,,2023-05-26 00:46:52,2023-05-26 00:46:53,1.249s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), 0)",,,,2023-05-26 00:46:53,2023-05-26 00:46:54,0.633s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/Last Name - Field""), ""muslikah"", 0)",,,,2023-05-26 00:46:54,2023-05-26 00:46:55,1.286s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), 0)",,,,2023-05-26 00:46:55,2023-05-26 00:46:56,0.634s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Checkout/ZipPostal Code - Field""), ""1234"", 0)",,,,2023-05-26 00:46:56,2023-05-26 00:46:57,1.176s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Continue Checkout - Button""), 0)",,,,2023-05-26 00:46:57,2023-05-26 00:46:57,0.721s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Checkout Overview - Assertion""), 0)",,,,2023-05-26 00:46:57,2023-05-26 00:46:59,1.306s,PASSED
+"scrollToText(""finish"", STOP_ON_FAILURE)",,,,2023-05-26 00:46:59,2023-05-26 00:47:04,5.522s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Finish - Button""), 0)",,,,2023-05-26 00:47:04,2023-05-26 00:47:05,0.387s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/CHECKOUT COMPLETE""), 0)",,,,2023-05-26 00:47:05,2023-05-26 00:47:06,1.467s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Checkout/Thankyou - Assertion finish order""), 0)",,,,2023-05-26 00:47:06,2023-05-26 00:47:06,0.300s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Checkout/Back Home - Button""), 0)",,,,2023-05-26 00:47:06,2023-05-26 00:47:07,0.465s,PASSED
+,,,,,,,
+Test Cases/5. Side Bar,,,,2023-05-26 00:47:07,2023-05-26 00:48:33,1m - 26.088s,PASSED
+"startExistingApplication(""com.swaglabsmobileapp"")",,,,2023-05-26 00:47:08,2023-05-26 00:47:22,14.514s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:22,2023-05-26 00:47:25,2.977s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/AllItems-Button""), 0)",,,,2023-05-26 00:47:25,2023-05-26 00:47:27,2.126s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Products - Assert All Items""), 0)",,,,2023-05-26 00:47:27,2023-05-26 00:47:30,2.161s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Add to Cart""), 0)",,,,2023-05-26 00:47:30,2023-05-26 00:47:30,0.556s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Remove - Assert""), 0)",,,,2023-05-26 00:47:30,2023-05-26 00:47:31,1.065s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:31,2023-05-26 00:47:32,0.471s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/ResetApp-Button""), 0)",,,,2023-05-26 00:47:32,2023-05-26 00:47:34,1.926s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Add to Cart""), 0)",,,,2023-05-26 00:47:34,2023-05-26 00:47:36,2.099s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:36,2023-05-26 00:47:36,0.355s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/WebView-Button""), 0)",,,,2023-05-26 00:47:36,2023-05-26 00:47:38,2.028s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/WEBVIEW SELECTION""), 0)",,,,2023-05-26 00:47:38,2023-05-26 00:47:42,3.478s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Side Bar/https - field""), 0)",,,,2023-05-26 00:47:42,2023-05-26 00:47:42,0.287s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Go to site - Button""), 0)",,,,2023-05-26 00:47:42,2023-05-26 00:47:43,0.691s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Please provide a correct https url - Validation""), 0)",,,,2023-05-26 00:47:43,2023-05-26 00:47:44,1.390s,PASSED
+"clearText(findTestObject(""Application/SauceDemo/Side Bar/https - field""), 0)",,,,2023-05-26 00:47:44,2023-05-26 00:47:45,0.610s,PASSED
+"setText(findTestObject(""Application/SauceDemo/Side Bar/https - field""), ""https://www.saucedemo.com/"", 0)",,,,2023-05-26 00:47:45,2023-05-26 00:47:46,1.396s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Go to site - Button""), 0)",,,,2023-05-26 00:47:46,2023-05-26 00:47:47,0.739s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:47,2023-05-26 00:47:47,0.584s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/QRCode-Button""), 0)",,,,2023-05-26 00:47:47,2023-05-26 00:47:49,2.007s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/ScanQR - assert scanQR""), 0)",,,,2023-05-26 00:47:49,2023-05-26 00:47:53,3.912s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:53,2023-05-26 00:47:54,0.733s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/GeoLoc-Button""), 0)",,,,2023-05-26 00:47:54,2023-05-26 00:47:57,3.537s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/GeoLoc - Assert""), 0)",,,,2023-05-26 00:47:57,2023-05-26 00:47:58,0.896s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:47:58,2023-05-26 00:48:03,4.357s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Drawing-Button""), 0)",,,,2023-05-26 00:48:03,2023-05-26 00:48:06,3.569s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Drawing - Assert""), 0)",,,,2023-05-26 00:48:06,2023-05-26 00:48:10,3.456s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:48:10,2023-05-26 00:48:11,1.652s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/About-Button""), 0)",,,,2023-05-26 00:48:11,2023-05-26 00:48:14,2.818s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/About- Assert""), 0)",,,,2023-05-26 00:48:14,2023-05-26 00:48:21,6.847s,PASSED
+pressBack(),,,,2023-05-26 00:48:21,2023-05-26 00:48:23,2.403s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Sidebar""), 0)",,,,2023-05-26 00:48:23,2023-05-26 00:48:27,3.094s,PASSED
+"tap(findTestObject(""Application/SauceDemo/Side Bar/Logout-Button""), 0)",,,,2023-05-26 00:48:27,2023-05-26 00:48:30,3.165s,PASSED
+"getText(findTestObject(""Application/SauceDemo/Side Bar/Login - Assert Logout""), 0)",,,,2023-05-26 00:48:30,2023-05-26 00:48:33,3.255s,PASSED
