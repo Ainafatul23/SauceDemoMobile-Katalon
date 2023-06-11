@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<WebElementEntity>
+<MobileElementEntity>
    <description></description>
-   <name>android.widget.TextView - Graphics</name>
+   <name>Drawing saved successfully to gallery</name>
    <tag></tag>
-   <elementGuidId>78d17753-8e88-4a27-b6c7-a8ab199a8dff</elementGuidId>
+   <elementGuidId>6c257d25-0dfd-41b2-8a94-7a7a607fe75b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -11,34 +12,39 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
+      <webElementGuid>dc2384e4-12e5-4bb2-a48c-c55aedb2f9ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>instance</name>
+      <name>index</name>
       <type>Main</type>
-      <value>5</value>
+      <value>0</value>
+      <webElementGuid>82a35a0d-51da-4f56-b1fb-c2c6d39c7eea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Graphics</value>
+      <value>Drawing saved successfully to gallery</value>
+      <webElementGuid>1f1b2b86-e156-44f4-afbc-6605c75ea90a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>android:id/text1</value>
+      <value>android:id/message</value>
+      <webElementGuid>5f0cc8ad-d1a4-4040-85ff-fa729f29627a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.hmh.api</value>
+      <value>com.swaglabsmobileapp</value>
+      <webElementGuid>fcc6af56-fce4-40cc-b84d-68a34131f902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6a8027f9-2c36-4bf0-8022-a1144ee165e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,13 +60,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>814444df-b02c-4305-9794-bba5ac8d36a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
+      <value>false</value>
+      <webElementGuid>0cf5c63e-6f8e-4692-8040-d5afb7188ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,6 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>dff2538d-8d70-4d0c-be01-8bf2f4a3f7ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,6 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>07cc6cf9-8ea1-477c-b0e4-1da7bee66978</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>77a101aa-25c7-471e-99bb-eb656a249809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,6 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>487417a7-8be7-411f-8bc6-b09a4ba5f86b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,6 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6723e061-fbcd-42c3-9d13-e616cbed7d04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,6 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>7653fc80-1f55-4cda-bd49-53d36efcc2a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,33 +124,64 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>258a3c07-35a5-41fe-8e35-ea0073dc06b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>0</value>
+      <value>72</value>
+      <webElementGuid>daf364d7-47dd-45c5-93c1-914d10f9fdf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>726</value>
+      <value>1089</value>
+      <webElementGuid>31c28cce-7444-4a75-83a9-f86db73f939c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>1440</value>
+      <value>936</value>
+      <webElementGuid>4e7f2f1f-8734-40b3-a5ef-66544da53c43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>126</value>
+      <value>61</value>
+      <webElementGuid>dfeba0fe-52b4-4345-9e66-e18695575e66</webElementGuid>
    </webElementProperties>
-</WebElementEntity>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>bounds</name>
+      <type>Main</type>
+      <value>[72,1089][1008,1150]</value>
+      <webElementGuid>b78b4fe4-9ebb-40fb-befd-ac1e7a744196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3bd48bde-3d4e-451b-aed4-a54b2f3e2b77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>4a04751a-80aa-4b12-9f5f-a4f7f3ff2a0a</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Drawing saved successfully to gallery' or . = 'Drawing saved successfully to gallery') and @resource-id = 'android:id/message']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

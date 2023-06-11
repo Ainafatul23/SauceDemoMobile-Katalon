@@ -36,14 +36,14 @@
       <guid>54523e5f-6fc9-49d8-944b-b8c55c0855c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3. Checkout</testCaseId>
+      <testCaseId>Test Cases/4. Checkout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>607b553b-8641-4d48-b55b-8798c2a6436e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/4. Side Bar</testCaseId>
+      <testCaseId>Test Cases/5. Side Bar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

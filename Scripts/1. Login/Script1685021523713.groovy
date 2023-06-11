@@ -29,7 +29,7 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-usernameValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernameRequired-Validation'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/UsernameRequired-Validation'), 'Username is required')
 
 //Verify user can't  leaving password field empty
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
@@ -40,7 +40,7 @@ Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-passwordValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/PasswordRequired-Validation'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/PasswordRequired-Validation'), 'Password is required')
 
 //Verify user can't input invalid username
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
@@ -53,8 +53,7 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-NotMatchValidation = Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 
-    0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 'Username and password do not match any user in this service.')
 
 //Verify user can't input invalid password
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
@@ -67,7 +66,7 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/UsernamePasswordDoNotMatch-Validation'), 'Username and password do not match any user in this service.')
 
 // Verify user can't login using locked out user
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
@@ -80,7 +79,7 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Login/LockedOutUser-Validation'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/LockedOutUser-Validation'), 'Sorry, this user has been locked out.')
 
 // Verify user can login with problem user
 Mobile.clearText(findTestObject('Application/SauceDemo/Login/LoginUsername-Field'), 0)
@@ -93,9 +92,8 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 'PRODUCTS')
 
-//Logout
 Mobile.tap(findTestObject('Application/SauceDemo/Login/SideBar-Dashboard'), 0)
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Logout-Button'), 0)
@@ -111,5 +109,5 @@ Mobile.setText(findTestObject('Application/SauceDemo/Login/LoginPassword-Field')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Login/Login-Button'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 'PRODUCTS')
 

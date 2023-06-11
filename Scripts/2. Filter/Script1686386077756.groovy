@@ -21,37 +21,38 @@ Mobile.startExistingApplication('com.swaglabsmobileapp')
 
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Filter'), 0)
 
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Filter/Sort items by'), 'Sort items by...')
+
 // Verify cancel button
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Cancel - Button'), 0)
 
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Login/Products-Assertion'), 'PRODUCTS')
 
 // Verify filter price (high to low)
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Filter'), 0)
 
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Price (high to low) - Sort'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Filter/49.99 - Assert Price Highest'), 0)
-
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Filter/49.99 - Assert Price Highest'), '$49.99')
 
 //Verify filter price (low to high)
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Filter'), 0)
 
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Price (low to high) - Sort'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Filter/7.99 - Assert Price Lowest'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Filter/7.99 - Assert Price Lowest'), '$7.99')
 
 //Verify filter name (Z to A)
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Filter'), 0)
 
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Name (Z to A) - Sort'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A'), 0)
-
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Filter/T-Shirt (Red) - Assertion Z to A'), 'Test.allTheThings() T-Shirt (Red)')
 
 // Verify filter name (A to Z)
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Filter'), 0)
 
 Mobile.tap(findTestObject('Application/SauceDemo/Filter/Name (A to Z) - Sort'), 0)
 
-Mobile.getText(findTestObject('Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z'), 0)
+Mobile.verifyElementText(findTestObject('Application/SauceDemo/Filter/Sauce Labs Backpack - Assertion A to Z'), 'Sauce Labs Backpack')
 
